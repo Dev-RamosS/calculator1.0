@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="./favicon/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculator: v1.0</h1>
+    </header>
+    <main>
+        <section class="calc-main-container">
+            <div class="calculator">
+                <input id="display" readonly>
+            </div>
+            <div class="main_calc">
+                <div class="calcButtons" id="keys">
+                    <button onclick="clearDisplay('&#67;')" class="clearButton">&#67;</button>
+                    <button onclick="expressionDisplay('&#40;;')" class="appendToDisplay">&#40;</button>
+                    <button onclick="expressionDisplay('&#41;')" class="appendToDisplay">&#41;</button>
+                    <button onclick="appendToDisplay('&#47;')" class="key_operator">&#47;</button>
+                </div>
+                <div class="calcButtons">
+                    <button onclick="appendToDisplay('&#55;')" class="appendToDisplay">&#55;</button>
+                    <button onclick="appendToDisplay('&#56;')" class="appendToDisplay">&#56;</button>
+                    <button onclick="appendToDisplay('&#57;')" class="appendToDisplay">&#57;</button>
+                    <button onclick="appendToDisplay('&#42;')" class="key_operator">&#42;</button>
+                </div>
+                <div class="calcButtons">
+                    <button onclick="appendToDisplay('&#52;')" class="appendToDisplay">&#52;</button>
+                    <button onclick="appendToDisplay('&#53;')" class="appendToDisplay">&#53;</button>
+                    <button onclick="appendToDisplay('&#54;')" class="appendToDisplay">&#54;</button>
+                    <button onclick="appendToDisplay('&#45;')" class="key_operator">&#45;</button>
+                </div>
+                <div class="calcButtons">
+                    <button onclick="appendToDisplay('&#49;')" class="appendToDisplay">&#49;</button>
+                    <button onclick="appendToDisplay('&#50;')" class="appendToDisplay">&#50;</button>
+                    <button onclick="appendToDisplay('&#51;')" class="appendToDisplay">&#51;</button>
+                    <button onclick="appendToDisplay('&#43;')" class="key_operator">&#43;</button>
+                </div>
+                <div class="calcButtons">
+                    <button onclick="appendToDisplay('&#48;')" class="appendToDisplay">&#48;</button>
+                    <button onclick="appendToDisplay('&#46;')" class="key_operator_period">&#46;</button>
+                    <button onclick="larrclear('&larr;')" class="key_operator_arr">&larr;</button>
+                    <button onclick="calculate('&#61;')" class="key_operator_equal">&#61;</button>
+                </div>
+        </section>
+        <footer>&copy; 26-11-2025 by <span>DevRamosS</span></footer>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

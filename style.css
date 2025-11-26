@@ -1,0 +1,72 @@
+#display {
+    color: black;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 18px ;
+}
+
+button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 21px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: rgb(4, 4, 7);
+    cursor: pointer;
+}
+
+.clearButton {
+    background-color: rgba(255, 0, 0, 0.623);
+}
+
+.clearButton:hover {
+    background-color: rgba(253, 55, 55, 0.705);
+}
+
+.clearButton:active {
+    background-color: rgba(252, 79, 79, 0.705);
+}
+
+.appendToDisplay,
+.key_operator_arr,
+.key_operator_period {
+    background-color: lightblue;
+}
+
+.appendToDisplay:hover,
+.key_operator_arr:hover,
+.key_operator_period:hover {
+    background-color: rgb(193, 227, 238);
+
+}
+
+.appendToDisplay:active,
+.key_operator_arr:active,
+.key_operator_period:active{
+    background-color: rgb(214, 238, 247);
+
+}
+
+.key_operator {
+    background-color: blue;
+}
+
+.key_operator:hover {
+    background-color: rgb(0, 102, 255);
+}
+
+.key_operator:active {
+    background-color: rgb(0, 119, 255);
+}
+
+.key_operator_equal {
+    background-color: green;
+}
+
+.key_operator_equal:hover {
+    background-color: rgb(3, 165, 3);
+}
+
+.key_operator_equal:active {
+    background-color: rgb(1, 206, 1);
+}
